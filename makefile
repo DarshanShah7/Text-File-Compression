@@ -1,7 +1,7 @@
 OBJS	= main.o input_output.o functions.o error.o algorithms.o
 SOURCE	= main.c input_output.c functions.c error.c algorithms.c
 HEADER	= input_output.h functions.h errro.h common.h algorithms.h
-OUT	= project.out
+OUT	= project
 CC	 = gcc
 FLAGS	 = -g -c -Wall
 LFLAGS	 = 
