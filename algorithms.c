@@ -313,7 +313,7 @@ void decompress(char *file_name, char * output_folder, char * new_file_name)
 
 
 
-    int file_name_length = strlen(file_name);
+   // int file_name_length = strlen(file_name);
 
     /*
 
