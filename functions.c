@@ -63,7 +63,7 @@ void insert_pattern(encoding_dictionary *t, char * s){
 
         int flg = 0;
 
-        int ret = 0;
+        //int ret = 0;
 
         while(1){
 
