@@ -45,8 +45,8 @@ long int get_file_size(char *filename)
 void print_info(char *filename)
 {   printf("********************************************************************************************************************\n");
     printf("      Compressing the file : %s\n",filename);
-    printf("      INPUT FILE SIZE      : %ld Bytes\n",input_file_size);
-    printf("      OUTPUT FILE SIZE     : %ld Bytes\n",output_file_size);
+    printf("      INPUT FILE SIZE      : %d Bytes\n",input_file_size);
+    printf("      OUTPUT FILE SIZE     : %d Bytes\n",output_file_size);
     long int difference = input_file_size - output_file_size;
     float ratio = (float) difference/input_file_size;
     ratio = ratio * 100;
@@ -210,15 +210,14 @@ void compress(char *file_name, char * output_folder, char * new_file_name)
     //flg is used to check whether the current pattern is present in the dictionary or not
     //if flg = -1 not present
     //else present
-    int flg;
+   
     char c;
     while ((c = fgetc(input_file)) != EOF)
     {
 
 
 
-        flg = 0;
-
+       
         //tmp is temporary pattern which we need to check
         char tmp[32515] = {'\0'};
 
