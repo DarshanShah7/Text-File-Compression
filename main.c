@@ -298,7 +298,7 @@ void folder_compress(char * basePath, char *output_file_string){
                     //create a output string by appending compressed
                     char to_be_appended[MAX_PATH] = "/";
 
-                    int length = strlen(dp->d_name);
+                    //int length = strlen(dp->d_name);
 
                     strcat(to_be_appended,dp->d_name);
 
