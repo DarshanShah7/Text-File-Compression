@@ -52,5 +52,6 @@ Dynamic LZW (which is used eg. in the GIF format) only writes as many bits as th
 ## Results Obtained
 
 - Using this program we can compress text files upto size 20kB.
+- You can refer to results.txt file to get the information about results obtained.
 
   
