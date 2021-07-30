@@ -1,6 +1,6 @@
 
-# LZW COMPRESSION
-
+# Text File Compression
+    Implemented text file compression using LZW compresion technique.
     The LZW algorithm is a very common compression technique.
     This algorithm is typically used in GIF and optionally 
     in PDF and TIFF. Unix’s ‘compress’ command, among other uses.
